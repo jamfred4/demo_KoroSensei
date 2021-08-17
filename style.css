@@ -1,0 +1,273 @@
+@font-face{
+    font-family: Faster;
+    src: url(fonts/FasterOne-Regular.ttf)
+}
+
+@font-face{
+    font-family: JAY-Z;
+    src: url(fonts/CarterOne-Regular.ttf)
+}
+
+@font-face{
+    font-family: KNEW;
+    src: url(fonts/Knewave-Regular.ttf)
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Black.ttf)
+}
+
+/* body { */
+    /* background-image: url('images/Copy\ of\ Untitled.png'); */
+/* } */
+
+div {
+    font-family: Faster;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    
+    
+}
+
+
+.text{
+    font-family: Roboto;
+    color: white;
+    background-color:#ebb3b0;
+    font-size: 14px;
+    margin-top: 40px;
+    border: 3px solid black;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.15s background-color, 0.15s font-size;
+}
+
+
+.col-md-12{
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.col-md-6{
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+
+
+.text:hover{
+    /* background-color: pink; */
+    background-color: #ebb3b0;
+    opacity: 1;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+#koro_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid black;
+    
+ }
+ 
+ 
+ 
+ .focus_three{
+     
+        margin-left: 50px;
+        background-color: #fd8888; 
+        border-top: black; 
+        margin-right: 55px;
+        border: 2px solid black;
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        width: 100px;
+}
+
+ 
+.focus_five{
+     
+    /* margin-left: 50px; */
+    /* background-color: #fd8888;  */
+    border-top: black; 
+    /* margin-right: 50px; */
+    /* border: 2px solid black; */
+    font-size: 46px;
+    color: black;
+    /* text-align: center; */
+    font-family: Roboto;
+    /* width: 100px; */
+}
+
+.focus_nine{
+     
+        /* margin-left: 50px; */
+        /* background-color: #fd8888;  */
+        border-top: black; 
+        /* margin-right: 50px; */
+        /* border: 2px solid black; */
+        font-size: 12px;
+        color: black;
+        /* text-align: center; */
+        font-family: Roboto;
+        /* width: 100px; */
+
+}
+
+.focus_six{
+     
+    /* margin-left: 50px; */
+    /* background-color: #fd8888;  */
+    border-top: black; 
+    /* margin-right: 50px; */
+    /* border: 2px solid black; */
+    font-size: 23px;
+    color: black;
+    /* text-align: center; */
+    font-family: Roboto;
+    /* width: 100px; */
+}
+
+
+
+
+hr{
+    color: black;
+}
+
+ 
+
+.four{
+     
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #fd8888; 
+    border-top: black; 
+    /* margin-right: 50px; */
+    border: 2px solid black;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    width: 100px;
+}
+
+
+img {
+    width: 400px;
+    height: 70px;
+   
+}
+
+.text{
+    font-family: Roboto;
+    color: white;
+    background-color:#ebb3b0;
+    font-size: 14px;
+    border: 3px solid black;
+   
+}
+
+.fire{
+    font-family: Roboto;
+    color: black;
+    background-color: #ebb3b0;
+    border: 3px solid black;
+    font-size: 14px;
+   
+   
+}
+
+.txet{
+    font-family: Roboto;
+    color: black;
+    background-color:#80b3ff;
+    font-size: 14px;
+    border: 3px solid black;
+   
+}
+
+.dropdown-item{
+    /* background-color: white;  */
+    border-top: black; 
+    color: black;
+    margin-right: 110px;
+    /* border: 2px solid black; */
+    font-size: 14px;
+    color: black;
+    ;
+  }
+
+#dropdownMenuButton1{
+    background-color: #80b3ff; 
+    border-top: black; 
+    margin-right: 30px;
+    border: 2px solid black;
+    font-size: 14px;
+    color: black;
+    width: 120px;
+    height: 42.5px;
+    padding: 0px;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #80b3ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .submit{
+      font-family: Roboto;
+      font-size: 15.5px;
+      align-items: center;
+     
+  }
+
+  .cancelbtn{
+    font-family: Roboto;
+    font-size: 15.5px;
+    align-items: center;
+  }
+
+ 
+
+
+
