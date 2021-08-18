@@ -9,3 +9,9 @@ function cancel(){
     pwd.value = "";
 }
 
+
+
+document.querySelector(".submit").addEventListener("click", checkUserInput)
+function checkUserInput(){
+    alert("PLEASE FILL OUT THIS FIELD!")
+}
