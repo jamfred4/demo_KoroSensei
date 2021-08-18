@@ -44,6 +44,7 @@ let michael = {
     email: "michaeltodd@mec.org"
 }
 
+
 let tutor_list = [singleton, benjamin, william, ender, michael];
 
 let divider = document.getElementById("mission_body");
