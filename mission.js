@@ -18,16 +18,33 @@ let benjamin = {
 };
 
 let william = {
-    name: "Willam Day - Computer Science Professional",
+    name: "Willam Day - Computer Professional",
     specialty: "Computer Science",
     role: "Tutor",
-    description: "Has a deep understanding of Javascript and HTML. He is well versed in the integration of the two programming languag",
+    description: "Has a deep understanding of Javascript and HTML. He is well versed in the integration of the two programming languages in order to create websites and to develope other online products",
     color: 'black',
-    email: "benjamin.bedford21@gmail.com"
-
+    email: "day.william52@gmail.com"
 }
 
-let tutor_list = [singleton, benjamin];
+let ender = {
+    name: "Ender Vedius- Science Professional",
+    specialty: "Biology",
+    role: "Tutor",
+    description: "Has a associates degree in Bio Chemestry and is an expert in the human body. Perticularly the nurological part. He focuses on how the brain interacts with the rest of the human body and is very apt at teaching tutees about the nervous system",
+    color: 'black',
+    email: "evedius69@gmail.com"
+}
+
+let michael = {
+    name: "Michael Todd - Science Professional",
+    specialty: "Physics",
+    role: "Tutor",
+    description: "Has a greate understanding of vectors and their postions and direction on any object. He is able to teach students to visualize and draw accurate vectors on objects both in motion and at rest.",
+    color: 'black',
+    email: "michaeltodd@mec.org"
+}
+
+let tutor_list = [singleton, benjamin, william, ender, michael];
 
 let divider = document.getElementById("mission_body");
 
