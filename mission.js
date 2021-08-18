@@ -1,27 +1,30 @@
 
-
-
-
 let singleton = {
     name: "Jhon Singleton - English Professional ",
     specialty: "English",
     role: "Tutor",
-    description: "An English Professor who has many accolades in the field is very meticulous with his teaching style.",
+    description: "An English professional who has many accolades in the field is very meticulous with his teaching style.",
     color: 'black',
-    // weakness: "Biology",
-    // mission: "I require assitance in understanding how to the immune system helps to prevent threats within the body and what components are most crucial to this task",
-    // reward: "22 karma points"
+    email: "jsingleton@gmail.com"
 };
 
 let benjamin = {
     name: "Benjamin Bedford - Math Professional",
     specialty: "Algebra",
     role: "Tutor",
-    description: "Well Versed In Math, Especially in the Algebra I field, and he excells in basic foundational skills and is able to assist with almost any matter rearding Algebra I.",
+    description: "Well versed In Math, Especially in the Algebra I field, and he excells in basic foundational skills and is able to assist with almost any matter rearding Algebra I.",
     color: 'black',
-    // weakness: "English",
-    // mission: "I require assitance in understanding how to analyze and disect poems, any tips and tricks or even a in depth tutorial will be appreciated",
-    // reward: "10 karma points"
+    email: "benjamin.bedford21@gmail.com"
+};
+
+let william = {
+    name: "Willam Day - Computer Science Professional",
+    specialty: "Computer Science",
+    role: "Tutor",
+    description: "Has a deep understanding of Javascript and HTML. He is well versed in the integration of the two programming languag",
+    color: 'black',
+    email: "benjamin.bedford21@gmail.com"
+
 }
 
 let tutor_list = [singleton, benjamin];
@@ -52,18 +55,9 @@ for (let i = 0; i < tutor_list.length; i++){
     point3.innerHTML = "Description: " + move.description;
     new_element.append(point3);
 
-    // let point4 = document.createElement("li");
-    // point4.innerHTML = "Weakness: " + move.weakness;
-    // new_element.append(point4);
-
-    // let point5 = document.createElement("li");
-    // point5.innerHTML = "Mission: " + move.mission;
-    // new_element.append(point5);
-
-    // let point6 = document.createElement("li");
-    // point6.innerHTML = "Reward: " + move.reward;
-    // new_element.append(point6);
-
+    let point4 = document.createElement("li");
+    point4.innerHTML = "Email: " + move.email;
+    new_element.append(point4);
 
 
     new_div.appendChild(new_element);
