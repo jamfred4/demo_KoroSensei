@@ -18,6 +18,8 @@
     src: url(fonts/Roboto-Black.ttf)
 }
 
+
+
 /* body { */
     /* background-image: url('images/Copy\ of\ Untitled.png'); */
 /* } */
@@ -113,6 +115,21 @@ div {
     /* width: 100px; */
 }
 
+
+.focus_twelve{
+     
+    /* margin-left: 50px; */
+    /* background-color: #fd8888;  */
+    border-top: black; 
+    /* margin-right: 50px; */
+    /* border: 2px solid black; */
+    font-size: 36.5px;
+    color: black;
+    /* text-align: center; */
+    font-family: Roboto;
+    /* width: 100px; */
+}
+
 .focus_nine{
      
         /* margin-left: 50px; */
@@ -135,7 +152,44 @@ div {
     border-top: black; 
     /* margin-right: 50px; */
     /* border: 2px solid black; */
-    font-size: 23px;
+    font-size: 22px;
+    color: black;
+    /* text-align: center; */
+    font-family: Roboto;
+    /* width: 100px; */
+}
+
+
+.focus_sixteen{
+
+    display: inline-block;
+    /* margin-left: 50px; */
+    /* background-color: #fd8888;  */
+    border-top: black; 
+    /* margin-right: 50px; */
+    /* border: 2px solid black; */
+    font-size: 22px;
+    color: black;
+    /* text-align: center; */
+    font-family: Roboto;
+    /* width: 100px; */
+    /* margin-left: 50px; */
+    /* float: right;     */
+}
+
+#logo{
+    width: 300px;
+    height: auto;
+}
+
+.fifteen{
+     
+    /* margin-left: 50px; */
+    /* background-color: #fd8888;  */
+    border-top: black; 
+    /* margin-right: 50px; */
+    /* border: 2px solid black; */
+    font-size: 20px;
     color: black;
     /* text-align: center; */
     font-family: Roboto;
@@ -280,4 +334,18 @@ form {
 
 .two-buttons button {
     margin-top: 10px;
+}
+
+.logout h6{
+    margin-bottom: 2px;
+}
+
+.rhe{
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.information {
+    font-size: 18px;
+    margin-left: 10px;
 }

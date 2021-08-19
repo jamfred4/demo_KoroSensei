@@ -6,33 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "login.js" defer></script>
+    <link rel="stylesheet" href="log_in.css">
     <title>Document</title>
 </head>
 <body>
-    <!-- <form action=> -->
-        <div class="imgscontainer">
-          <img src="images/unnamed.png" alt="Avatar" class="avatar">
-        </div>
-    
-        <div class="container">
-          <label for="uname">Username</label>
-          <input type="text" class="username" placeholder="Enter Username" name="uname" required>
+  <div class="imgcontainer">
+    <img src="images/unnamed.png" alt="Avatar" class="avatar">
+  </div>
 
-    
-          <input type="password" class="password" placeholder="Enter Password" name="psw" required>
-    
-            <a href="home.html"><button type="submit" class="submit">Login</button></a>
-          <label>
-            <input type="checkbox"  name="remember"> Remember Me
-          </label>
-        </div>
-    
-        <div class="container" style="background-color:#f1f1f1">
-          <button class="cancelbtn" onclick="cancel()">Cancel</button> 
-          <!-- this will clear username and password -->
-    
-        </div>
-      <!-- </form> -->
+  <div class="logout-container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" class="username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" class="password" name="psw" required>
+
+    <a><button type="submit" class="submit" onclick="login()">Login</button></a>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"><p>Dont have an Account? <a href="index.html">Sign Up</a></p></span>
+  </div>
+
+
+  <div class="logout">
+    <h6>Please fill in all fields!</h6>
+    <div class="two-buttons">
+        <button type="button" class = "rhe" onclick="cancelButton()"><a>OK</a></button> 
+    </div>
+</div>
+
     
 </body>
 </html>
