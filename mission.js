@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7d3b84e2a6caf4b96ab8e86fcbb613eeb7bef1fa
 let singleton = {
     name: "Jhon Singleton - English Professional ",
     specialty: "English",
@@ -11,6 +15,7 @@ let benjamin = {
     specialty: "Algebra",
     role: "Tutor",
     description: "Well versed In Math, Especially in the Algebra I field, and he excells in basic foundational skills and is able to assist with almost any matter rearding Algebra I.",
+<<<<<<< HEAD
     color: 'black',
     email: "benjamin.bedford21@gmail.com"
 };
@@ -79,6 +84,42 @@ let kendara = {
     email: "Bailyartwork@gmail.com"
 }
 let tutor_list = [singleton, benjamin, william, ender, michael, john, ethan, velcime, aaron, kendara];
+=======
+    color: 'black',
+    email: "benjamin.bedford21@gmail.com"
+};
+
+let william = {
+    name: "Willam Day - Computer Professional",
+    specialty: "Computer Science",
+    role: "Tutor",
+    description: "Has a deep understanding of Javascript and HTML. He is well versed in the integration of the two programming languages in order to create websites and to develope other online products",
+    color: 'black',
+    email: "day.william52@gmail.com"
+}
+
+let ender = {
+    name: "Ender Vedius- Science Professional",
+    specialty: "Biology",
+    role: "Tutor",
+    description: "Has a associates degree in Bio Chemestry and is an expert in the human body. Perticularly the nurological part. He focuses on how the brain interacts with the rest of the human body and is very apt at teaching tutees about the nervous system",
+    color: 'black',
+    email: "evedius69@gmail.com"
+}
+
+let michael = {
+    name: "Michael Todd - Science Professional",
+    specialty: "Physics",
+    role: "Tutor",
+    description: "Has a greate understanding of vectors and their postions and direction on any object. He is able to teach students to visualize and draw accurate vectors on objects both in motion and at rest.",
+    color: 'black',
+    email: "michaeltodd@mec.org"
+}
+
+
+let tutor_list = [singleton, benjamin, william, ender, michael];
+
+>>>>>>> 7d3b84e2a6caf4b96ab8e86fcbb613eeb7bef1fa
 let divider = document.getElementById("mission_body");
 for (let i = 0; i < tutor_list.length; i++){
     let new_div = document.createElement("div");
@@ -98,9 +139,18 @@ for (let i = 0; i < tutor_list.length; i++){
     let point3 = document.createElement("li");
     point3.innerHTML = "Description: " + move.description;
     new_element.append(point3);
+<<<<<<< HEAD
     let point4 = document.createElement("li");
     point4.innerHTML = "Email: " + move.email;
     new_element.append(point4);
+=======
+
+    let point4 = document.createElement("li");
+    point4.innerHTML = "Email: " + move.email;
+    new_element.append(point4);
+
+
+>>>>>>> 7d3b84e2a6caf4b96ab8e86fcbb613eeb7bef1fa
     new_div.appendChild(new_element);
     divider.appendChild(new_div);
 }
