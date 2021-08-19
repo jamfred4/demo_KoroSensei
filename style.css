@@ -34,6 +34,20 @@ div {
     
 }
 
+.wqe{
+    font-family: Roboto;
+}
+
+.submit{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+
+/* .containersignin{ */
+    
+
+
 
 .text{
     font-family: Roboto;
@@ -79,6 +93,7 @@ div {
 
 #koro_div {
     display: flex;
+    /* margin-left: 12px; */
     justify-content: flex-start;
     align-items: center;
     border: 3px solid black;
@@ -290,7 +305,18 @@ img {
 }
 
 .two-buttons button {
-    margin-top: 10px;
+    margin-top: 20px;
+    background-color: #80b3ff;
+    margin-left: 12px;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid black;
+    /* padding: 10px; */
+    /* background-color:#80b3ff; */
+    /* display: flex; */
+    /* justify-content: 10px; */
+    /* width: 10px; */
 }
 
 .logout h6{

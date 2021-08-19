@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 @font-face{
@@ -46,6 +47,9 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
   background-color: #80b3ff;
   color: white;
   padding: 16px 20px;
@@ -64,7 +68,7 @@ hr {
 
 /* Add a blue text color to links */
 a {
-  color: dodgerblue;
+  color: #1e90ff;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
@@ -101,13 +105,14 @@ a {
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <hr>
-    <p>By Creating An Account You Agree To Our <a href="#">Terms & Privacy</a>.</p>
+    <p><input type="checkbox">By Creating An Account You Agree To Our <a href="#">Terms & Privacy</a>.</p>
+   
 
     <a href="home.html"><button type="submit" class="registerbtn">Register</button></a>
   </div>
   
-  <div class="container signin">
-    <p>Already have an account? <a href="logout.html">Sign In</a></p>
+  <div class="container signin" p style="font-size: 20px;"></p>
+    <p>Already Have An Account? <a href="logout.html">Sign In</a></p>
   </div>
 
 

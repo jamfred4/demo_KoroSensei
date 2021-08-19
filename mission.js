@@ -1,84 +1,96 @@
 let singleton = {
-    name: "Jhon Singleton - English Professional ",
-    specialty: "English",
-    role: "Tutor",
-    description: "An English professional who has many accolades in the field is very meticulous with his teaching style.",
+    name: "JHON SINGLETON - ENGLISH TEACHER",
+    specialty: "ENGLISH",
+    role: "TUTOR",
+    description: "JHON SINGLETON IS A HIGH-SCHOOL ENGLISH TEACHER WHO HAS EARNED A DOCTORATE DEGREE IN ENGLISH AT THE UNIVERSITY OF INDIANA AND HAS MANY ACCOLADES IN THE FIELD INCLUDING BEING VERY METICULOUS IN HIS TEACHING STYLE.",
     color: 'black',
-    email: "jsingleton@gmail.com"
+    email: "jsingleton@coastcali.org"
 };
 let benjamin = {
-    name: "Benjamin Bedford - Math Professional",
-    specialty: "Algebra",
-    role: "Tutor",
-    description: "Well versed In Math, Especially in the Algebra I field, and he excells in basic foundational skills and is able to assist with almost any matter rearding Algebra I.",
+    name: "BENJAMIN BEDFORD - MATHEMATICS PROFESSOR",
+    specialty: "TOPOLOGY + PARTIAL DIFFERENTIAL EQUATIONS ",
+    role: "TUTOR",
+    description: "BENJAMIN BEDFORD IS VERY WELL-VERSED IN MATHEMATICS, ESPECIALLY IN THE TOPOLOGY AND THE PARTIAL DIFFERENTIAL EQUATIONS FIELDS, AND HE EXCELS IN BASIC FOUNDATIONAL SKILLS AND IS ABLE TO ASSIST WITH ALMOST ANY MATTER REGARDING TO TOPOLOGY AND PARTIAL DIFFERENTIAL EQUATIONS.",
     color: 'black',
-    email: "benjamin.bedford21@gmail.com"
+    email: "bbedford@columbia.edu"
 };
 let william = {
-    name: "Willam Day - Computer Professional",
-    specialty: "Computer Science",
-    role: "Tutor",
-    description: "Has a deep understanding of Javascript and HTML. He is well versed in the integration of the two programming languages in order to create websites and to develope other online products",
+    name: "WILLIAM DAY - COMPUTER PROFESSOR",
+    specialty: "COMPUTER SCIENCE",
+    role: "TUTOR",
+    description: "WILLIAM DAY HAS A DEEP UNDERSTANDING OF JAVASCRIPT, HTML, AND CSS. HE IS WELL-VERSED IN THE INTEGRATION OF THE TWO PROGRAMMING LANGUAGES IN ORDER TO CREATE WEBSITES AND TO DEVELOP OTHER ONLINE PRODUCTS.",
     color: 'black',
-    email: "day.william52@gmail.com"
+    email: "willday@mit.edu"
 }
 let ender = {
-    name: "Ender Vedius- Science Professional",
-    specialty: "Biology",
-    role: "Tutor",
-    description: "Has a associates degree in Bio Chemestry and is an expert in the human body. Perticularly the nurological part. He focuses on how the brain interacts with the rest of the human body and is very apt at teaching tutees about the nervous system",
+    name: "ENDER VEDIUS - SCIENCE PROFESSOR",
+    specialty: "BIOLOGY",
+    role: "TUTOR",
+    description: "ENDER VEDIUS HAS AN ASSOCIATES DEGREE IN BIOCHEMISTRY AND IS AN EXPERT IN THE HUMAN BODY, PARTICULARLY IN THE NEUROLOGICAL PART. MR. VEDIUS ALSO FOCUSES ON HOW THE BRAIN INTERACTS WITH THE REST OF THE HUMAN BODY AND IS VERY SUITABLE AT TEACHING TUTEES ABOUT THE NERVOUS SYSTEM.",
     color: 'black',
-    email: "evedius69@gmail.com"
+    email: "evedius@bc.edu"
 }
 let michael = {
-    name: "Michael Todd - Science Professional",
-    specialty: "Physics",
-    role: "Tutor",
-    description: "Has a greate understanding of vectors and their postions and direction on any object. He is able to teach students to visualize and draw accurate vectors on objects both in motion and at rest.",
+    name: "MICHAEL TODD - SCIENCE PROFESSOR",
+    specialty: "PHYSICS",
+    role: "TUTOR",
+    description: "MICHAEL TODD IS A SCIENCE PROFESSOR WHO UNDERSTANDS VECTORS AND THEIR POSITIONS + DIRECTION ON ANY OBJECT. MR. TODD IS ALSO ABLE TO TEACH STUDENTS TO VISUALIZE AND DRAW ACCURATE VECTORS ON OBJECTS BOTH IN MOTION AND AT REST.",
     color: 'black',
-    email: "michaeltodd@mec.org"
+    email: "michaeltodd@mec.edu"
 }
 let john = {
-    name: "John Doe - English Professional",
-    specialty: "Litrature",
-    role: "Tutor",
-    description: "Has a deep understanding of many pieces of Litrature and is able to analyze themes as well as characters within them in a very astute manner. He will help students to get in the mentality of reading for comprehension",
+    name: "JOHN DOE - ENGLISH PROFESSOR",
+    specialty: "Literature",
+    role: "TUTOR",
+    description: "JOHN DOE HAS A CLEAR UNDERSTANDING OF MANY PIECES OF LITERATURE AND IS ABLE TO ANALYZE THEME, AND CHARACTERS WITHIN THE THEME IN AN ASTUTE MANNER. ADDITIONALLY, MR. DOE PROMISES TO HELP STUDENTS GET INTO THE MINDSET, MENTALITY, AND THE PRACTICE OF READING COMPREHENSION.",
     color: 'black',
-    email: "johndoe.castle31@gmail.com"
+    email: "johndoe@kingstorm.edu"
 }
 let ethan = {
-    name: "Ethan Atwell - Art Professional",
-    specialty: "Graphic Design",
-    role: "Tutor",
-    description: "He has a great understanding of the many elements of graphic design and is able to help students to integrate them when it comes to websites or other online works that they may be engaged in",
+    name: "ETHAN HOWARD - ART PROFESSOR",
+    specialty: "GRAPHIC DESIGN",
+    role: "TUTOR",
+    description: "ETHAN HOWARD HAS A DEEP UNDERSTANDING OF MANY ELEMENTS OF GRAPHIC DESIGN SUCH AS BALANCE AND CONTRAST AND IS ADDITIONALLY ABLE TO HELP STUDENTS BLEND ELEMENTS TOGETHER WHEN IT COMES TO BUILDING A WEBSITE, CREATING A PICTURE, OR OTHER ONLINE WORK THAT THE STUDENT MAY BE ENGAGED IN.",
     color: 'black',
-    email: "atwellendiomon@gmail.com"
+    email: "ehoward@pratt.edu"
 }
 let velcime = {
-    name: "Akron Velicme - Language Professional",
-    specialty: "French",
-    role: "Tutor",
-    description: "Has greatly studied the French language and is able to give students adivec as to pronounciation. He can also aid students in determining the gender of the object in question as well as helping students to conjugate verbs",
+    name: "AKRON VELCIME - FRENCH PROFESSOR",
+    specialty: "FRENCH",
+    role: "TUTOR",
+    description: "MR. AKRON VELICME HAS STUDIED THE FRENCH LANGUAGE AND IS ABLE TO HELP STUDENT ON HOW PRONOUNCE CERTAIN WORDS, SUFFIXES, AND AS WELL AS HELPING STUDENTS TO CONJUGATE VERBS IN FRENCH.",
     color: 'black',
-    email: "avelcime@mecps.org"
+    email: "avelcime@harvard.edu"
 }
 let aaron = {
-    name: "Aaron Abdullah - History Professional",
+    name: "AARON ABDULLAH - HISTORY PROFESSOR",
     specialty: "Global History",
-    role: "Tutor",
-    description: "Has a great understanding of how to understand and cotify historical moments in a way that is easy to understand and allows for greater efficency when it comes to memorizing facts and topics from various cultures thoughout history",
+    role: "TUTOR",
+    description: "AARON ABDULLAH IS GREAT AT BREAKING DOWN HISTORICAL MOMENTS IN A WAY THAT IS EASY TO UNDERSTAND AND WHICH ALLOWS FOR GREATER EFFICIENCY WHEN IT COMES TO MEMORIZING HISTORICAL FACTS AND TOPICS FROM VARIOUS CULTURES AND EVENTS THROUGHOUT HISTORY.",
     color: 'black',
-    email: "aaronmullah312@gmail.com"
+    email: "aaronmullah@duke.edu"
 }
 let kendara = {
-    name: "Kendara Baily - Music Professional",
-    specialty: "Music Creation",
-    role: "Tutor",
-    description: "Greatly graps how to read musical notes and is able to assit students in music creation. Furthermore she is able to help studetns to understand the minute differences that exists within the musical notation, more specifically flats and sharps",
+    name: "KENDARA BAILY - MUSIC TEACHER",
+    specialty: "MUSICAL CREATION",
+    role: "TUTOR",
+    description: "KANDARA BAILY IS A MUSIC TEACHER WHO IS ABLE TO READ MUSICAL NOTES AND ASSIST STUDENTS IN A MUSICAL CREATION. FURTHERMORE, MS. BAILY IS ABLE TO HELP STUDENTS UNDERSTAND THE MINUTES DIFFERENCES THAT EXIST WITHIN THE MUSIC NOTATION, FLATS, AND SHARPS.",
     color: 'black',
-    email: "Bailyartwork@gmail.com"
+    email: "bailyartwork@gmail.com"
 }
-let tutor_list = [singleton, benjamin, william, ender, michael, john, ethan, velcime, aaron, kendara];
+
+let maria = {
+    name: "MARIA VALÁDEZ - LANGUAGE PROFESSOR",
+    specialty: "SPANISH",
+    role: "TUTOR",
+    description: "MARIA VALÁDEZ UNDERSTANDS EVERY ASPECT OF THE SPANISH LANGUAGE AND KNOWS EVERY LEVEL OF SPANISH. ADDITIONALLY, MRS. VALÁDEZ IS ABLE TO ANSWER EVERY QUESTION A STUDENT HAS REGARDING TO SPANISH INCLUDING WHERE YOU NEED TO PUT AN ACCENT ON A CERTAIN WORD.",
+    color: 'black',
+    email: "mvaladez@nyu.edu"
+}
+
+
+
+let tutor_list = [singleton, benjamin, william, ender, michael, john, ethan, velcime, aaron, kendara, maria];
 let divider = document.getElementById("mission_body");
 for (let i = 0; i < tutor_list.length; i++){
     let new_div = document.createElement("div");
