@@ -48,6 +48,12 @@ form {
     background-color: #f44336;
   }
   
+.one.buttons{
+  font-family: Faster;
+  align-items: center;
+}
+
+
   /* Center the avatar image inside this container */
   .imgcontainer {
     text-align: center;
