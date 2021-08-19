@@ -3,7 +3,6 @@ let pwd = document.querySelector(".password");
 
 let popup = document.querySelector(".logout");
 
-<<<<<<< HEAD
 function cancelButton(){
     popup.style.display = "none";
 }
@@ -13,14 +12,11 @@ function logoutButton(){
 }
 
 
-=======
->>>>>>> 7d3b84e2a6caf4b96ab8e86fcbb613eeb7bef1fa
 function cancel(){
     user.value = "";
     pwd.value = "";
 }
 
-<<<<<<< HEAD
 function login(){
     if(user.value == "" || pwd.value == "") {
         logoutButton();
@@ -37,6 +33,3 @@ function login(){
 // function checkUserInput(){
     // alert("PLEASE FILL OUT THIS FIELD!")
 // }
-=======
-
->>>>>>> 7d3b84e2a6caf4b96ab8e86fcbb613eeb7bef1fa
