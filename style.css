@@ -353,3 +353,7 @@ img {
     font-size: 18px;
     margin-left: 10px;
 }
+
+h1{
+    text-align: underline;
+}
